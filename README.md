@@ -1,2 +1,22 @@
 # Tetris-score
 Project i made today 1/7/25
+#Kenny 1/7/25
+#ask a user for how many lines they cleared in tetris and prints out diffrent tiers
+#solo
+#14 mins
+
+score = int(input("enter your tetris score:")) #gets the score from the user and stores it in "score"
+if score < 101:
+   print("Novice")
+elif score < 201:
+   print("Intermediate")
+elif score < 301:
+   print("Advanced!!!")
+else:
+    print("You're an Expert!!!")
+
+for i in range(2, 80, 10):
+    print(i, end = " ")
+
+for i in range(100, -10, -5):
+    print(i, end = " ")
